@@ -1412,14 +1412,24 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: #594039 !important;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #23527c;
-  text-decoration: underline;
+  color: white !important;
+  text-decoration: none;
+}
+
+.redlink:hover, .redlink:focus {
+  color: #d10b0f !important;
+  text-decoration: none;
+}
+
+.buttonscroll:hover {
+  color: white !important;
+  text-decoration: none;
 }
 
 a:focus {
