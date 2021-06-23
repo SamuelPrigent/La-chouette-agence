@@ -166,11 +166,11 @@ color: #a03d21 !important;
 */
 
 .col-sm-3:hover div {
-  color: #c0451f !important;
+  color: #b64d4f !important;
 }
 
 .col-sm-3:hover div span {
-  color: #c0451f !important;
+  color: #b64d4f !important;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -889,8 +889,12 @@ background-color: #704b42;
   background-color: #685545;
 }
 
-.tc-white {
+/* 
   color: #f7dcc6 !important;
+*/
+
+.tc-white {
+  color: #fffbf8 !important;
 }
 
 .tc-white2 {
@@ -900,14 +904,22 @@ background-color: #704b42;
   padding-right: 25px !important;
 }
 
+/* 
+background sombre pour texte blanc
+background: #bc8171;
+background: #6e4d45;
+background clair pour texte sombre
+background: #F8E6D7;
+*/
+
 .btn-atomic-tangerine {
-  background: #bc8171;
-  color: #ffffff !important;
+  background: #9c5d5e;
+  color: white !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #a36f61 !important;
-  color: #ffffff !important;
+  background: #b17172;
+  color: white !important;
 }
 
 .ltc-white {
