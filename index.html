@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
-    <meta name="description" content="">
+    <meta name="keywords" content="Agence lyon site web design programmation développeur optimization creation clients entreprise">
+    <meta name="description" content="Site de la chouette agence basée à lyon. Agence de web design aillant pour activité la création, l'optimisation, la conceptualisation de site web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -12,12 +12,14 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+<!-- 
+	A quoi servent ces 2 scripts???? : 
+<script src="./js/jquery.touchSwipe.js" defer></script>
+<script src="./js/gmaps.js"></script>
+ -->
+<script src="./js/js-minify/jquery-2.1.0.js"></script> <!-- menu déroulant mobile -->
+<script async src="./js/js-minify/bootstrap.js"></script> <!-- Images cliquables -->
+<script async src="./js/js-minify/blocs.js"></script> <!-- Images cliquables -->
 
     <title>La chouette agence</title>
 
@@ -68,7 +70,7 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo couleur" />
+				<img class="center-block image-resize-mode" width="100" alt="Logo couleur" src="img/logo.png"/>
 				<h1 class="text-center hero-bloc-text tc-white">
 					La chouette agence
 				</h1>
@@ -96,7 +98,7 @@
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h2 class="mg-md text-center">
+				<h2 class="mg-md text-center whatwedo-blue">
 					Web design
 				</h2>
 				<p class="text-justify ">
@@ -107,7 +109,7 @@
 				<div class="text-center">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h2 class="mg-md text-center">
+				<h2 class="mg-md text-center whatwedo-blue">
 					&nbsp;Stratégie
 				</h2>
 				<p class="text-justify ">
@@ -118,7 +120,7 @@
 				<div class="text-center">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h2 class="mg-md text-center">
+				<h2 class="mg-md text-center whatwedo-blue">
 					Illustrations
 				</h2>
 				<p class="text-justify ">
@@ -144,7 +146,7 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h2 class="mg-md text-justify tc-white">
+				<h2 class="mg-md text-center tc-white">
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-justify white">
@@ -175,12 +177,14 @@
 
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" class="img-focus">
-					<img src="img/1.jpg" class="img-responsive portfolio-thumb"  alt="site web journal local"/>
+					<img 
+						class="img-responsive portfolio-thumb"  alt="site web journal local" src="img/1.jpg" 
+						srcset="img/responsive/1-370.jpg 370w, img/responsive/1-550.jpg 550w"/>
 				</a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
-				<p class="text-center">
+				<p class="text-center max-550">
 					Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 				</p>
 			</div>
@@ -189,11 +193,13 @@
 
 			<div class="col-sm-6">
 				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" class="img-focus">
-					<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="site web de photographes" /></a>
+					<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="site web de photographes" 
+					srcset="img/responsive/2-370.jpg 370w, img/responsive/2-550.jpg 550w"/>
+				</a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
-				<p class="text-center">
+				<p class="text-center max-550">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
 			</div>
@@ -208,7 +214,7 @@
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
-				<p class="text-center">
+				<p class="text-center max-550">
 					Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 				</p>
 			</div>
@@ -221,7 +227,7 @@
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
-				<p class="text-center">
+				<p class="text-center max-550">
 					Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 				</p>
 			</div>

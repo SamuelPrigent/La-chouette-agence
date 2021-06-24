@@ -730,6 +730,12 @@ p {
   font-size: 15px;
 }
 
+.max-550 {
+  display: flex;
+  max-width: 550px;
+  margin: auto;
+}
+
 .tight-width-whitespace {
   max-width: 800px;
   margin: auto;
@@ -747,6 +753,12 @@ p {
   padding: 12px 28px 12px 28px;
   font-size: 16px;
   font-weight: 700;
+}
+
+@media (max-width: 770px) {
+  .cta-hero {
+    margin-top: 0px;
+  }
 }
 
 .social {
@@ -810,6 +822,7 @@ h4 {
 
 .quotes {
   color: #575757 !important;
+  color: #613731 !important;
   font-size: 1.6em;
   max-width: 650px;
   padding: 0px 25px 10px 25px;
@@ -819,6 +832,7 @@ h4 {
 
 .quotes2 {
   color: #575757 !important;
+  color: #3a5a39 !important;
   font-size: 1.4em;
   max-width: 610px;
   padding: 0px 25px 0px 25px;
@@ -836,11 +850,16 @@ h4 {
 
 .quotes4 {
   color: #575757 !important;
+  color: #613731 !important;
   font-size: 1.6em;
   max-width: 490px;
   padding: 0px 25px 0px 25px;
   margin: auto;
   margin-bottom: 40px;
+}
+
+.whatwedo-blue {
+  color: #364577 !important;
 }
 
 .footerlist {
@@ -999,9 +1018,61 @@ background: #F8E6D7;
   background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
+@media (max-width: 500px) {
+  .bg-banniere {
+    background-image: url("img/responsive/banner-1-500px.jpg");
+  }
+}
+
+@media (max-width: 700px) {
+  .bg-banniere {
+    background-image: url("img/responsive/banner-1-700px.jpg");
+  }
+}
+
+@media (max-width: 1000px) {
+  .bg-banniere {
+    background-image: url("img/responsive/banner-1-1000px.jpg");
+  }
+}
+
+@media (max-width: 1400px) {
+  .bg-banniere {
+    background-image: url("img/responsive/banner-1-1400px.jpg");
+  }
+}
+
 .bg-presentation {
   background-image: url("img/image-de-presentation.bmp");
   filter: saturate(60%);
+}
+
+@media (max-width: 500px) {
+  .bg-presentation {
+    background-image: url("img/responsive/banner-2-500px.jpg");
+    filter: saturate(60%);
+  }
+}
+
+@media (max-width: 700px) {
+  .bg-presentation {
+    background-image: url("img/responsive/banner-2-700px.jpg");
+    filter: saturate(60%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .bg-presentation {
+    background-image: url("img/responsive/banner-2-1000px.jpg");
+    filter: saturate(60%);
+  }
+}
+
+@media (max-width: 1400px) {
+  .bg-presentation {
+    background-image: url("img/responsive/banner-2-1400px.jpg");
+    filter: saturate(60%);
+  }
 }
 
 @media (max-width: 1024px) {
