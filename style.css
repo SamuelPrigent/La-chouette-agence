@@ -755,12 +755,6 @@ p {
   font-weight: 700;
 }
 
-@media (max-width: 770px) {
-  .cta-hero {
-    margin-top: 0px;
-  }
-}
-
 .social {
   max-width: 400px;
   margin: auto;
