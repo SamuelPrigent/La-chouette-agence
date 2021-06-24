@@ -1422,10 +1422,25 @@ a:hover {
   text-decoration: none;
 }
 
-.redlink:hover, .redlink:focus {
+.redlink {
+  display: flex;
+  height: 27px;
+  align-items: center;
+  border: 0px solid blue;
+}
+
+.redlink:hover,
+.redlink:focus {
   color: #d10b0f !important;
   text-decoration: none;
 }
+
+.redlink2:hover,
+.redlink2:focus {
+  color: #d10b0f !important;
+  text-decoration: none;
+}
+
 
 .buttonscroll:hover {
   color: white !important;

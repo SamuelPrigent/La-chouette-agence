@@ -859,8 +859,18 @@ h4 {
 .footerlist {
   list-style-type: none !important;
   color: #1c0c00 !important;
-  font-size: 1.05em !important;
-  padding-left: 5px;
+  font-size: 1.15em !important;
+  padding-left: 0px;
+}
+
+@media (max-width: 767px) {
+  .footerlist {
+    padding-left: 20px;
+  }
+
+  .brown {
+    padding-left: 20px !important;
+  }
 }
 
 .black {
