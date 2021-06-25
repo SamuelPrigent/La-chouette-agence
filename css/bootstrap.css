@@ -315,6 +315,8 @@ th {
       format("svg");
 }
 
+/*
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -1376,6 +1378,11 @@ th {
   content: "\e260";
 }
 
+*/
+/* 
+glyph icon dont impact wesite
+*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1411,38 +1418,9 @@ textarea {
   line-height: inherit;
 }
 
-a {
-  color: #594039 !important;
-  text-decoration: none;
-}
 
 a:focus,
 a:hover {
-  color: white !important;
-  text-decoration: none;
-}
-
-.redlink {
-  display: flex;
-  height: 27px;
-  align-items: center;
-  border: 0px solid blue;
-}
-
-.redlink:hover,
-.redlink:focus {
-  color: #d10b0f !important;
-  text-decoration: none;
-}
-
-.redlink2:hover,
-.redlink2:focus {
-  color: #d10b0f !important;
-  text-decoration: none;
-}
-
-
-.buttonscroll:hover {
   color: white !important;
   text-decoration: none;
 }

@@ -1303,3 +1303,30 @@ background: #F8E6D7;
     text-align: center;
   }
 }
+
+.redlink {
+  display: flex;
+  height: 27px;
+  align-items: center;
+}
+
+.redlink:hover,
+.redlink:focus {
+  color: #d10b0f !important;
+  text-decoration: none;
+}
+
+.redlink2:hover,
+.redlink2:focus {
+  color: #d10b0f !important;
+  text-decoration: none;
+}
+
+.buttonscroll:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
