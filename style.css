@@ -1046,6 +1046,11 @@ background: #F8E6D7;
   }
 }
 
+.bg-presentation {
+  background-image: url("img/responsive/banner-2-1000px.jpg");
+  filter: saturate(60%);
+}
+
 @media (max-width: 500px) {
   .bg-presentation {
     background-image: url("img/responsive/banner-2-500px.jpg");
@@ -1068,8 +1073,8 @@ background: #F8E6D7;
 }
 
 .bloc2 {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 @media (max-width: 1024px) {
