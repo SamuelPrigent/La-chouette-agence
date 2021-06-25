@@ -1067,6 +1067,11 @@ background: #F8E6D7;
   }
 }
 
+.bloc2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
