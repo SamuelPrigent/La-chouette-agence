@@ -820,8 +820,7 @@ h4 {
 }
 
 .quotes {
-  color: #575757 !important;
-  color: #613731 !important;
+  color: black !important;
   font-size: 1.45em;
   max-width: 650px;
   padding: 0px 25px 10px 25px;
@@ -830,8 +829,7 @@ h4 {
 }
 
 .quotes2 {
-  color: #575757 !important;
-  color: #3a5a39 !important;
+  color: black !important;
   font-size: 1.4em;
   max-width: 610px;
   padding: 0px 25px 0px 25px;
@@ -848,8 +846,7 @@ h4 {
 }
 
 .quotes4 {
-  color: #575757 !important;
-  color: #613731 !important;
+  color: black !important;
   font-size: 1.45em;
   max-width: 490px;
   padding: 0px 25px 0px 25px;
@@ -858,7 +855,7 @@ h4 {
 }
 
 .whatwedo-blue {
-  color: #364577 !important;
+  color: black !important;
 }
 
 .footerlist {
