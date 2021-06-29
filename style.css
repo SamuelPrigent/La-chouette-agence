@@ -756,12 +756,12 @@ p {
 }
 
 .social {
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
-  gap: 23px;
+  gap: 30px;
   justify-content: center;
 }
 
